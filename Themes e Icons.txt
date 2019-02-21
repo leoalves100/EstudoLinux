@@ -1,8 +1,0 @@
-Icons: Flat Remix ICON theme
-Link: https://www.xfce-look.org/p/1012430/
-
-Themes: macOS Mojave
-Link: https://www.xfce-look.org/p/1275087/
-
-Pasta padrão do themas
-/usr/share/themes/
