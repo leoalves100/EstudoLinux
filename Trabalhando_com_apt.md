@@ -11,7 +11,7 @@
 -u #mostrar pacotes que serão atualizados também
 ``` 
 
-##Limpar cache
+## Limpar cache
 ```
 #Local o fica armazenado arquivos .deb baixados
 /var/cache/apt/archives
