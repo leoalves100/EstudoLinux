@@ -10,3 +10,8 @@ $ dpkg --get-selections > Lista-Pacotes.txt
 ```
 $ dpkg -l | grep nomepacote
 ```
+
+### Listar todos os serviços em execução 
+```
+$ sudo service --status-all
+```
