@@ -2,7 +2,6 @@
 
 ### Comandos
 ```
-
 -h #ajuda 
 -d #baixar arquivos apenas, não instalar 
 -f #conserta erros de instalações de pacotes 
@@ -54,5 +53,13 @@ $ sudo apt upgrade nomepacote
 ## Atualizar a distribuição
 ```
 $ sudo apt dist-upgrade
+```
+
+## Instalar pacotes
+```
+$ sudo apt install nomepacote
+
+#instalar versão específica do pacote
+$ sudo apt install pacote=versāo
 ```
 
