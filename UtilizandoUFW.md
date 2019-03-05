@@ -16,7 +16,6 @@
     1. ufw allow 80(TCP/UDP) 
 
     # Forma alternativa
-
     2. ufw allow 80/TCP
 
 ## Deletar Regra
@@ -28,16 +27,27 @@
     ufw deny (TCP/UDP)
 
 ### Bloquear
-    # Saida
+    #Saida
     ufw deny out 80
 
-    # Entrada
+    #Entrada
     ufw deny in 80
 
-## Bloquear ip
-    ufw deny from 192.168.1.29
+# Computadores da rede
+```    
+#Permitir 
+ufw allow from 192.168.1.175
 
-### Bloquear IP e protocolo 
-    ufw deny from 192.168.1.29 to any port 80
+#Negar
+ufw deny from 192.168.1.29
 
+#Negar porta
+ufw deny from 192.168.1.29 to any port 80
+
+#Negar protocolo
+to any port 80 proto tcp
+```
+
+## Permitir tráfego por sub-rede
+    ufw allow from 192.168.1.0/24
 
