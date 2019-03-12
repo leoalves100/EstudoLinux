@@ -12,12 +12,12 @@
 
 ## Limpar cache
 ```
-#Local o fica armazenado arquivos .deb baixados
+#Local onde fica armazenado arquivos .deb baixados
 /var/cache/apt/archives
 
 #Remover todos os pacotes do cache
-$ sudo apt clean
 #Exceto os arquivos de lock
+$ sudo apt clean
 
 #Remover apenas pacotes antigos
 $ sudo apt autoclean
@@ -40,9 +40,9 @@ $ sudo apt --purge remove nomepacote
 ```
 $ sudo apt -u upgrade 
 
-#param -u mostra as atualizações que será feitas 
+#parâmetro -u mostra as atualizações que será feitas 
 
-#return kept back
+#return = kept back
 #há novas atualizações para o pacote, porém não é possível instalar
 ```
 ### Atualizar pacote individualmente
