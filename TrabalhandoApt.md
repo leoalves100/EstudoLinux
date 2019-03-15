@@ -109,6 +109,30 @@ $ apt search "nomepacote"
 &nbsp;
 
 # Como instalar pacotes "on demand"
+```
+auto-apt run ./configure
+
+#Atualizar auto-apt
+$ auto-apt update
+
+$ auto-apt updatedb
+
+$ auto-apt update-local
+```
+
+# Como descobrir a qual pacote um arquivo pertence
+
+```
+$ apt-file search nomedoarquivo
+
+#Listar conteúdo de um pacote 
+$ apt-file list nomedopacote
+
+#Atualizar base de dados
+$ apt-file update
+```
+
+
 
 
 
