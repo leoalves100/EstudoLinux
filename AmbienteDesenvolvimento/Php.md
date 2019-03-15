@@ -40,3 +40,23 @@ xdebug.remote_autostart=1
 
 # Arquivo de configuração do PHP
     /etc/php/7.2/apache2/php.ini
+
+&nbsp;
+# Pasta onde fica as bibliotecas do php
+```
+/usr/lib/php/20170718
+``` 
+
+# Ativando uma extensão
+```
+#Criar arquivo ini na pasta
+/etc/php/7.2/mods-available/redis.ini
+
+#Colocar o conteúdo dentro do arquivo ini
+extension=redis.so
+
+#Criar link simbólico dentro da pasta 
+/etc/php/7.2/apache2/conf.d/
+
+ln -s /etc/php/7.2/mods-available/redis.ini 20-redis.ini
+```
