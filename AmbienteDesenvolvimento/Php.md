@@ -40,3 +40,9 @@ xdebug.remote_autostart=1
 
 # Arquivo de configuração do PHP
     /etc/php/7.2/apache2/php.ini
+
+&nbsp;
+# Pasta onde fica as bibliotecas do php
+```
+/usr/lib/php/20170718
+``` 
