@@ -109,6 +109,49 @@ $ apt search "nomepacote"
 &nbsp;
 
 # Como instalar pacotes "on demand"
+```
+auto-apt run ./configure
+
+#Atualizar auto-apt
+$ auto-apt update
+
+$ auto-apt updatedb
+
+$ auto-apt update-local
+```
+
+# Como descobrir a qual pacote um arquivo pertence
+
+```
+$ apt-file search nomedoarquivo
+
+#Listar conteúdo de um pacote 
+$ apt-file list nomedopacote
+
+#Atualizar base de dados
+$ apt-file update
+```
+&nbsp;
+
+# Como manter-se informado das mudanças nos pacotes
+
+```
+#Instalar o pacote
+$ apt-listchanges
+```
+# Baixar código fonte do pacote
+```
+$ apt-get source nomedopacote
+```
+**Baixa três arquivos**
+
+1. orig.tar.gz
+2. dsc 
+<p>Usado pelo dpkg-source para descompactar o pacote fonte no diretório nomedopacote-versão</p>
+3. diff.gz
+
+
+
 
 
 
