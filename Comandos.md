@@ -23,3 +23,6 @@ $ sudo service --status-all
 4. **&** : Colocado ao final de um comando, faz com que o mesmo rode em segundo plano desde o início
 5. **Ctrl+c** : Mata o processo atual ativo
 6. **Ctrl+z** : Pausa/para o processo atual ativo
+
+# Verificar servições em execução
+`# netstat -plnt` 
