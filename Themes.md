@@ -1,4 +1,4 @@
-# Icons
+Icons
 
 ### Flat Remix ICON theme
 
@@ -14,12 +14,24 @@
 &nbsp;
 # Pastas Padrão
 
-### Pasta padrão para temas do sistema
+### Themes | Icons
 ```
-/usr/share/themes/
-
-#ou
-#Icons segue o mesmo conceito
-
-/home/.themes
+Raiz
+	/usr/share/themes/
+	
+Home
+	/home/.themes
 ```
+
+### Aplication menu
+
+```
+Raiz
+	/usr/share/applications
+
+Home
+~/.local/share/applications
+```
+
+
+
