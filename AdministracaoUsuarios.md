@@ -1,29 +1,29 @@
-# Trabalhando com **sudo**
-```
-#Adicionar usuário ao grupo sudo
-$ usermod -aG sudo username
+> Adicionar usuário ao grupo sudo
 
-#Elevar o usuário para root temporariamente
-$ sudo some-command
-```
+`$ usermod -aG sudo username`
 
-# Executar **sudo** sem digitar a senha
-```
-$ sudo visudo
+> Elevar o usuário para root temporariamente
 
-#Arquivo presente em /etc/sudoers
-
-#Adicionar linha
-username ALL=(ALL) NOPASSWD: ALL
-```
+`$ sudo some-command`
 
 &nbsp;
 
-# Ativar conta de usuário **root**
-```
-$ sudo passwd root
+> Executar **sudo** sem digitar a senha
 
-#Desativar root
-$ sudo passwd -1 root
-```
+`$ sudo visudo`
+
+> Arquivo do sudo: /etc/sudoers
+
+`username ALL=(ALL) NOPASSWD: ALL`
+
+$nbsp
+
+> Definir senha do **root**
+
+`$ sudo passwd root`
+
+> Desativar root
+
+`$ sudo passwd -1 root`
+
 
