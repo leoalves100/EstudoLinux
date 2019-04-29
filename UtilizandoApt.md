@@ -33,11 +33,13 @@ $ sudo apt-get --reinstall install nomepacote
 ```
 $ sudo apt remove nomepacote 
 
-#remover configurações também
+# Remover configurações também
 $ sudo apt --purge remove nomepacote
 ```
+# Consertar pacote quebrado
+`$ sudo dpkg --configure -a`
 
-## Atualizar pacotes
+# Atualizar pacotes
 ```
 $ sudo apt -u upgrade  
 
